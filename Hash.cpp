@@ -1,6 +1,6 @@
 const int nMOD = 2;
 const ll base = 31;
-const ll mods[] = {(ll) 1e9 + 3, (ll) 1e9 + 3777};
+const ll mods[] = {(ll) 1e9 + 10777, (ll) 1e9 + 19777};
 
 const int maxn = 1e5 + 5;
 string a;
