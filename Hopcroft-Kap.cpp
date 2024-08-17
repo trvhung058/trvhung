@@ -47,14 +47,14 @@ struct Matching {
 	}
 
 	int match() {
-        int res = 0;
-        while (bfs()) {
-            for (int u = 1; u <= n; ++u)
-                if (!matchX[u])
-                    if (dfs(u)) ++res;
-        }
-        return res;
-    }
+	        int res = 0;
+	        while (bfs()) {
+	            for (int u = 1; u <= n; ++u)
+	                if (!matchX[u])
+	                    if (dfs(u)) ++res;
+	        }
+	        return res;
+	}
 };
 
 void solve() {
